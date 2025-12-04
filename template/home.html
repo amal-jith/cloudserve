@@ -1,0 +1,765 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Cloudserve Trading & Services W.L.L{% endblock %}
+
+    {% block content %}
+
+    <section class="header">
+        <div class="card header-card">
+
+          <video class="card-video-bg" autoplay muted loop playsinline preload="none" poster="">
+            <source src="{% static 'videos/hero.mp4' %}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <div class="gradient-overlay"></div>
+
+          <div class="card-img-overlay">
+              <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-5">
+                    <div class="col">
+                        <h1 class="hero-title">Smart Networking & Communication Solutions</h1>
+                        <p class="hero-subtitle">Cloudserve empowers businesses with cutting-edge IT infrastructure and automation systems. We deliver reliable, scalable, and secure networking solutions for the digital age.</p>
+                    </div>
+                    <div class="col d-flex flex-column justify-content-end">
+                        <div class="row row-cols-1 row-cols-md-3 g-3">
+                            <div class="col">
+                                <h2 class="hero-number">15+</h2>
+                                <p class="hero-text">Years of Experience</p>
+                            </div>
+                            <div class="col">
+                                <h2 class="hero-number">120+</h2>
+                                <p class="hero-text">Experts</p>
+                            </div>
+                            <div class="col">
+                                <h2 class="hero-number">120+</h2>
+                                <p class="hero-text">Completed Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+    </section>
+
+    <div class="section-1">
+        <div class="container">
+
+            <div class="pill-section">
+                <div class="pill-tab">
+                    <img src="{% static 'icons/icon-park-outline_dot.svg' %}"><p class="pill-text">About us</p>
+                </div>
+                <h1 class="section-heading-1">The Cloudserve Advantage</h1>
+                <p class="section-subheading-1">Where robust infrastructure meets security, efficiency, and proven implementation expertise.</p>
+            </div>
+
+            <div class="content-1">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <p class="about-text-1">
+                            We are a leading provider of networking and communication solutions, dedicated to helping businesses build robust, secure, and scalable IT infrastructures. Our team of certified professionals brings decades of combined experience in designing and implementing enterprise-grade technology solutions.
+                        </p>
+                        <h5 class="about-heading-1">Why Choose Us</h5>
+                        <div class="why-tab mt-4">
+                            <img src="{% static 'icons/charm_tick.svg' %}"><p class="why-text">15+ years of industry experience</p>
+                        </div>
+                        <div class="why-tab mt-2">
+                            <img src="{% static 'icons/charm_tick.svg' %}"><p class="why-text">500+ successful project implementations</p>
+                        </div>
+                        <div class="why-tab mt-2">
+                            <img src="{% static 'icons/charm_tick.svg' %}"><p class="why-text">24/7 technical support and monitoring</p>
+                        </div>
+                        <div class="why-tab mt-2">
+                            <img src="{% static 'icons/charm_tick.svg' %}"><p class="why-text">Certified partnerships with leading vendors</p>
+                        </div>
+                        <div class="why-tab mt-2">
+                            <img src="{% static 'icons/charm_tick.svg' %}"><p class="why-text">ISO-aligned security & deployment standards</p>
+                        </div>
+
+                        <button type="button" class="btn about-btn mt-4">About Us<img src="{% static 'icons/uil_arrow-up.svg' %}"></button>
+
+                    </div>
+                    <div class="col">
+                        <img src="{% static 'images/about.webp' %}" class="img-fluid about-img" alt="...">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-1">
+        <div class="container">
+
+            <div class="pill-section">
+                <div class="pill-tab">
+                    <img src="{% static 'icons/icon-park-outline_dot.svg' %}"><p class="pill-text">Our Solutions</p>
+                </div>
+                <h1 class="section-heading-1">Our Solutions</h1>
+                <p class="section-subheading-1">Comprehensive technology solutions designed to meet your business needs and drive digital transformation.</p>
+            </div>
+
+        </div>
+
+        <div class="content-service-1">
+
+            <div class="owl-carousel owl-theme my-owl-3">
+                <div class="item">
+                    <div class="service-comb">
+                        <div class="row row-cols-1 row-cols-md-2 g-2">
+                            <div class="col-md-5">
+                                <div class="card service-body h-100">
+                                    <div class="card-body ">
+                                        <h5 class="service-title">Unified Technology for Modern Enterprises</h5>
+                                        <p class="service-subtext">Comprehensive solutions designed to support digital transformation and business growth.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card service-img-card h-100">
+                                    <div class="services-img-bg" style="background-image: url('{% static 'images/fibre_optics.webp' %}');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="service-comb">
+                        <div class="row row-cols-1 row-cols-md-2 g-2">
+                            <div class="col-md-5">
+                                <div class="card service-body h-100">
+                                    <div class="card-body ">
+                                        <h5 class="service-title">Networking Infrastructure</h5>
+                                        <p class="service-subtext">We deliver structured cabling, fiber cabling, Wi-Fi solutions, campus networking, switching, routing, firewall security, and data center connectivity designed for maximum performance and reliability.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card service-img-card h-100">
+                                    <div class="services-img-bg" style="background-image: url('{% static 'images/fibre_optics.webp' %}');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="service-comb">
+                        <div class="row row-cols-1 row-cols-md-2 g-2">
+                            <div class="col-md-5">
+                                <div class="card service-body h-100">
+                                    <div class="card-body ">
+                                        <h5 class="service-title">Control & Automation Supplies</h5>
+                                        <p class="service-subtext">A complete suite of automation systems that enhance operational efficiency—covering industrial control components, smart sensors, controllers, and monitoring systems.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card service-img-card h-100">
+                                    <div class="services-img-bg" style="background-image: url('{% static 'images/fibre_optics.webp' %}');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section-1">
+        <div class="container">
+
+            <div class="pill-section">
+                <div class="pill-tab">
+                    <img src="{% static 'icons/icon-park-outline_dot.svg' %}"><p class="pill-text">Our Products</p>
+                </div>
+                <h1 class="section-heading-1">Our Technology Ecosystem</h1>
+                <p class="section-subheading-1">Cutting-edge technology products and solutions from leading manufacturers, tailored for your business needs.</p>
+            </div>
+
+            <div class="content-1">
+                <div class="owl-carousel owl-theme my-owl">
+                    <div class="item">
+                        <div class="card product-card">
+                          <div class="product-img-wrapper">
+                            <div class="product-img-bg" style="background-image: url('{% static 'images/51242.webp' %}');"></div>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="product-title">Network switches, routers & wireless systems</h5>
+                            <p class="product-subtitle">Network switches</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card product-card">
+                          <div class="product-img-wrapper">
+                            <div class="product-img-bg" style="background-image: url('{% static 'images/51242.webp' %}');"></div>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="product-title">Network switches, routers & wireless systems</h5>
+                            <p class="product-subtitle">Network switches</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card product-card">
+                          <div class="product-img-wrapper">
+                            <div class="product-img-bg" style="background-image: url('{% static 'images/51242.webp' %}');"></div>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="product-title">Network switches, routers & wireless systems</h5>
+                            <p class="product-subtitle">Network switches</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card product-card">
+                          <div class="product-img-wrapper">
+                            <div class="product-img-bg" style="background-image: url('{% static 'images/51242.webp' %}');"></div>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="product-title">Network switches, routers & wireless systems</h5>
+                            <p class="product-subtitle">Network switches</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-1">
+
+        <div class="container">
+
+            <div class="pill-section">
+                <div class="pill-tab">
+                    <img src="{% static 'icons/icon-park-outline_dot.svg' %}"><p class="pill-text">Our Services</p>
+                </div>
+                <h1 class="section-heading-1">Our Core Activities</h1>
+                <p class="section-subheading-1">Cloudserve offers a complete range of IT, security, AV, and automation services tailored to different business environments.</p>
+            </div>
+
+        </div>
+
+        <div class="content-service-1">
+
+            <div class="owl-carousel owl-theme my-owl-2">
+                <div class="item">
+                    <div class="service-comb">
+                        <div class="row row-cols-1 row-cols-md-2 g-2">
+                            <div class="col-md-5">
+                                <div class="card service-body h-100">
+                                    <div class="card-body ">
+                                        <h5 class="service-title">Control & Automation Supplies</h5>
+                                        <p class="service-subtext">Cloudserve empowers industries to achieve smarter operations through a full suite of control and automation products.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card service-img-card h-100">
+                                    <div class="services-img-bg" style="background-image: url('{% static 'images/fibre_optics.webp' %}');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="service-comb">
+                        <div class="row row-cols-1 row-cols-md-2 g-2">
+                            <div class="col-md-5">
+                                <div class="card service-body h-100">
+                                    <div class="card-body ">
+                                        <h5 class="service-title">Control & Automation Supplies</h5>
+                                        <p class="service-subtext">Cloudserve empowers industries to achieve smarter operations through a full suite of control and automation products.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card service-img-card h-100">
+                                    <div class="services-img-bg" style="background-image: url('{% static 'images/fibre_optics.webp' %}');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="service-comb">
+                        <div class="row row-cols-1 row-cols-md-2 g-2">
+                            <div class="col-md-5">
+                                <div class="card service-body h-100">
+                                    <div class="card-body ">
+                                        <h5 class="service-title">Control & Automation Supplies</h5>
+                                        <p class="service-subtext">Cloudserve empowers industries to achieve smarter operations through a full suite of control and automation products.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card service-img-card h-100">
+                                    <div class="services-img-bg" style="background-image: url('{% static 'images/fibre_optics.webp' %}');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container">
+            <div class="service-progress-wrap">
+                <div class="progress-line">
+                    <div class="progress-fill"></div>
+                </div>
+
+                <div class="progress-arrows">
+                    <button class="p-arrow left">&#8592;</button>
+                    <button class="p-arrow right">&#8594;</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section-1">
+        <div class="container">
+
+            <div class="pill-tab" style="justify-content: flex-start;">
+                <img src="{% static 'icons/icon-park-outline_dot.svg' %}"><p class="pill-text">Our Partners</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+                <div class="col">
+                    <h1 class="section-heading-1" style="text-align: left;">Technology Powered by Industry Leaders</h1>
+                </div>
+                <div class="col">
+                    <p class="section-subheading-1" style="text-align: left;">
+                        Our solutions are supported by certified partnerships with top global manufacturers, ensuring performance, reliability, and long-term value.
+                    </p>
+                    <button type="button" class="btn about-btn mt-4">Be a partner<img src="{% static 'icons/uil_arrow-up.svg' %}"></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content-1" style="margin-bottom: 5rem;">
+
+            <div class="swiper partnersSwiper first-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/cisco.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/hpe.svg' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/ubiquiti.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/Ruijie.webp' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/tplink.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/hpe.svg' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/ubiquiti.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/Ruijie.webp' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/tplink.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination d-none"></div>
+            </div>
+
+            <div class="swiper partnersSwiper second-swiper mt-4">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/cisco.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/hpe.svg' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/ubiquiti.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/Ruijie.webp' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/tplink.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/hpe.svg' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/ubiquiti.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/Ruijie.webp' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/tplink.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination d-none"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section-1">
+        <div class="container">
+
+            <div class="pill-section">
+                <div class="pill-tab">
+                    <img src="{% static 'icons/icon-park-outline_dot.svg' %}"><p class="pill-text">Our Industries</p>
+                </div>
+                <h1 class="section-heading-1">Industries We Empower</h1>
+                <p class="section-subheading-1">Explore how our core solutions are custom-built to support different business environments.</p>
+            </div>
+
+            <div class="content-1">
+
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col-md-8 h-100">
+                        <div id="industryImage" class="industry-img-bg" style="background-image: url('{% static 'images/gov.webp' %}');"></div>
+                    </div>
+                    <div class="col-md-4 h-100">
+                        <div class="industry-buttons">
+                            <button type="button" class="btn industry-btn"
+                                    data-image="{% static 'images/gov.webp' %}">Government</button>
+
+                            <button type="button" class="btn industry-btn"
+                                    data-image="{% static 'images/education.webp' %}">Education</button>
+
+                            <button type="button" class="btn industry-btn"
+                                    data-image="{% static 'images/healthcare.webp' %}">Healthcare</button>
+
+                            <button type="button" class="btn industry-btn"
+                                    data-image="{% static 'images/manufacturing.jpg' %}">Manufacturing</button>
+
+                            <button type="button" class="btn industry-btn"
+                                    data-image="{% static 'images/hospitality.jpg' %}">Hospitality</button>
+
+                            <button type="button" class="btn industry-btn"
+                                    data-image="{% static 'images/finance.jpg' %}">Finance</button>
+
+                            <button type="button" class="btn industry-btn"
+                                    data-image="{% static 'images/industry1.webp' %}">Logistics</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-1">
+        <div class="container">
+
+            <div class="pill-tab" style="justify-content: flex-start;">
+                <img src="{% static 'icons/icon-park-outline_dot.svg' %}"><p class="pill-text">Our Customers</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+                <div class="col">
+                    <h1 class="section-heading-1" style="text-align: left;">Trusted by Market Leaders</h1>
+                </div>
+                <div class="col">
+                    <p class="section-subheading-1" style="text-align: left;">
+                        We proudly support clients across government, semi-government, education, healthcare, hospitality, manufacturing, retail, and logistics sectors.
+                    </p>
+                    <button type="button" class="btn about-btn mt-4">Be a partner<img src="{% static 'icons/uil_arrow-up.svg' %}"></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content-1" style="margin-bottom: 5rem;">
+
+            <div class="swiper partnersSwiper first-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/cisco.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/hpe.svg' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/ubiquiti.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/Ruijie.webp' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/tplink.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/hpe.svg' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/ubiquiti.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/Ruijie.webp' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/tplink.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination d-none"></div>
+            </div>
+
+            <div class="swiper partnersSwiper second-swiper mt-4">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/cisco.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/hpe.svg' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/ubiquiti.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/Ruijie.webp' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/tplink.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/hpe.svg' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/ubiquiti.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/Ruijie.webp' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-logo-div">
+                        <img src="{% static 'icons/tplink.png' %}" class="swiper-logo-1">
+                    </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination d-none"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section-1">
+        <div class="container">
+
+            <div class="pill-section">
+                <div class="pill-tab">
+                    <img src="{% static 'icons/icon-park-outline_dot.svg' %}"><p class="pill-text">Testimonials</p>
+                </div>
+                <h1 class="section-heading-1">Real Results, Trusted Partnerships</h1>
+                <p class="section-subheading-1">Hear directly from the clients who rely on Cloudserve for their critical IT infrastructure.</p>
+            </div>
+
+            <div class="content-1">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col-md-6">
+                        <img src="{% static 'images/2223.webp' %}" class="img-fluid about-img" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <div class="card testimonial-card">
+                                  <div class="card-body">
+                                    <img src="{% static 'icons/ri_double-quotes-l.svg' %}" style="display: flex; align-items: center;">
+                                    <p class="test-text-1 mt-2">
+                                        "Cloudserve transformed our entire IT infrastructure. Their expertise in networking solutions helped us achieve 99.9% uptime and significantly improved our operational efficiency."
+                                    </p>
+                                      <p class="test-text-2">Sarah Johnson</p>
+                                      <p class="test-text-3">IT Director</p>
+                                      <p class="test-text-4">Sarah Johnson</p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="card testimonial-card">
+                                  <div class="card-body">
+                                    <img src="{% static 'icons/ri_double-quotes-l.svg' %}" style="display: flex; align-items: center;">
+                                    <p class="test-text-1 mt-2">
+                                        "Cloudserve transformed our entire IT infrastructure. Their expertise in networking solutions helped us achieve 99.9% uptime and significantly improved our operational efficiency."
+                                    </p>
+                                      <p class="test-text-2">Sarah Johnson</p>
+                                      <p class="test-text-3">IT Director</p>
+                                      <p class="test-text-4">Sarah Johnson</p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card testimonial-card">
+                                  <div class="card-body">
+                                    <img src="{% static 'icons/ri_double-quotes-l.svg' %}" style="display: flex; align-items: center;">
+                                    <p class="test-text-1 mt-2">
+                                        "Cloudserve transformed our entire IT infrastructure. Their expertise in networking solutions helped us achieve 99.9% uptime and significantly improved our operational efficiency."
+                                    </p>
+                                      <p class="test-text-2">Sarah Johnson</p>
+                                      <p class="test-text-3">IT Director</p>
+                                      <p class="test-text-4">Sarah Johnson</p>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-1">
+        <div class="container-fluid">
+
+            <div class="card ready-card" style="background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.93) 100%), url('{% static 'images/ready.webp' %}') lightgray 50% / cover no-repeat;">
+              <div class="card-img-overlay">
+                  <div class="row g-4 justify-content-between align-items-center">
+                      <div class="col-md-8">
+                        <div class="pill-section-1">
+                            <div class="pill-tab">
+                                <img src="{% static 'icons/icon-park-outline_dotwhite.svg' %}"><p class="pill-text text-white">Our Customers</p>
+                            </div>
+                            <h1 class="section-heading-1 text-white" style="text-align: left;">Ready to Power Your Future?</h1>
+                            <p class="section-subheading-1 text-white" style="text-align: left;">Let our certified experts design, secure, and implement the comprehensive IT infrastructure needed to transform your business operations and drive growth.</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="card contact-card">
+                              <div class="card-body">
+                                <div class="mb-3">
+                                  <label for="formGroupExampleInput" class="form-label">Full Name</label>
+                                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your full name">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="formGroupExampleInput2" class="form-label">Email Address</label>
+                                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your email address">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="formGroupExampleInput2" class="form-label">Phone Number</label>
+                                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your phone number">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="formGroupExampleInput2" class="form-label">Phone Number</label>
+                                    <textarea style="height: 100px" class="form-control" id="formGroupExampleInput2" placeholder="Tell us about your needs.."></textarea>
+                                </div>
+                                <button type="button" class="btn send-btn">Send Message<img src="{% static 'icons/mingcute_send-line.svg' %}"></button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    {% endblock %}
